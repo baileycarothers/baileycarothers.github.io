@@ -2,9 +2,21 @@
 <html color-mode="dark">
 	<head>
 		<meta name="Viewport" content="width=device-width, initial-scale=1">
-		<title>Bailey Carothers - Dev</title>
+		<title>Bailey Carothers - Computer Engineer</title>
 		<link href="dark-theme.css" rel="stylesheet" id="theme">
 		<style>
+			.parallax {
+				background-image: url("profile_parallax.JPG");
+
+				height: 1000px;
+
+				background-attachment: fixed;
+				background-position: center;
+				background-repeat: no-repeat;
+				background-size: cover;
+
+				margin: 0;
+			}
 			#loader-wrapper {
 				position: fixed;
 				top: 0;
@@ -81,8 +93,11 @@
 		</style>
 	</head>
 	<body>	
-		<h1>To do: Make website :-)</h1>
-		<button onclick="toggleTheme()">Toggle Theme</button>
+		<div class="parallax"></div>
+		<div style="height1000px;font-size:36px">
+			<h1>To do: Make website :-)</h1>
+			<button onclick="toggleTheme()">Toggle Theme</button>
+		</div>
 		<div id="loader"></div>
 		<script src="toggleTheme.js"></script>
 	</body>
