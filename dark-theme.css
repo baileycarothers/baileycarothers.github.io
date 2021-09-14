@@ -3,6 +3,7 @@ body {
 	background-color: black;
 	color: white;
 	font-size:  25px;
+	margin: 0;
 }
 html {
 	height: 100%;
