@@ -4,6 +4,7 @@ body {
 	color: black;
 	font-size:  25px;
 	margin: 0;
+	overflow: hidden;
 }
 h2 {
 	margin: 0;
