@@ -9,7 +9,7 @@
 		.parallax {
 			background-image: url("profile_parallax.JPG");
 
-			height: 1000px;
+			height: 100vh;
 
 			background-attachment: fixed;
 			background-position: center;
@@ -19,11 +19,26 @@
 
 			margin: 0;
 		}
+
+		.parallax-text {
+			text-align: center;
+			position: absolute;
+			top: 75%;
+			left: 50%;
+			transform: translate(-50%, -75%);
+			background-color: rgba(0, 0, 0, .4);
+			font-size: 7vh;
+			color: white;
+		}
 	</style>
 </head>
 
 <body>
-	<div class="parallax"></div>
+	<div class="parallax">
+		<div class="parallax-text">
+			Hello, I'm Bailey Carothers. <br> I'm a Computer Engineer.
+		</div>
+	</div>
 	<div style="height:1000px;font-size:36px">
 		<h1>To do: Make website :-)</h1>
 		<button onclick="toggleTheme()">Toggle Theme</button>
